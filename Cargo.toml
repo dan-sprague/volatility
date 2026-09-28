@@ -1,0 +1,13 @@
+[package]
+name = "volitilitydetection"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nuts-rs = "0.18.3"
+rand = "0.10.3"
+rand_distr = "0.6.0"
+sciplot = { version = "0.1.0", path = "../sciplot" }
+
+[profile.dev.package."*"]
+opt-level = 2
